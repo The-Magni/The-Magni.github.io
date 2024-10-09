@@ -1,0 +1,17 @@
+.container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+}
+#bar, #button {
+    border-radius: 10px;
+    display: block;
+    justify-content: center;
+    margin: 5px 0;
+}
+#bar {
+    width: 700px;
+    height: 20px;
+}
