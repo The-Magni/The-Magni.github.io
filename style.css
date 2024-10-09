@@ -5,6 +5,7 @@
     align-items: center;
     height: 100vh;
 }
+
 #bar, #button {
     border-radius: 10px;
     display: block;
