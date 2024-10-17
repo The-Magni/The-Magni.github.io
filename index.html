@@ -21,7 +21,15 @@
                 </h1>
                 <input id="bar" type="text" name="q">
                 <input id="button" type="submit" value="Google Search">
+                <input id="lucky_button" type="submit" value="I'm feeling lucky">
             </div>
         </form>
+        <script>
+            document.getElementById("lucky_button").addEventListener("click", function() {
+                event.preventDefault(); // Prevent the default form submission
+                const query = document.getElementById("bar").value;
+                window.location.href = `https://www.google.com/search?q=${query}&btnI=I`; // Redirect to the first result
+            });
+        </script>
     </body>
 </html>
